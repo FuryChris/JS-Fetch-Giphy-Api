@@ -1,5 +1,5 @@
 var loaded = 0; // który element aktualnie ma być ładowany.
-var APIKEY = "bKgN9fTDyt4siFR46DXdpXAONqESQz4v";  // klucz na razie testowy
+var APIKEY = "RoUdaXUDp0haMemheg9MFSn3NA92Ps3Y";  // klucz na razie testowy
 var gifsperclick = 9;  //ile gifów na kliknięcie
 
 const gifsSearchInput = document.getElementById('gifs-search');

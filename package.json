@@ -1,0 +1,22 @@
+{
+  "name": "giphy-api",
+  "version": "1.0.0",
+  "description": "![](/images//sample.jpg)",
+  "main": "script.js /d .",
+  "scripts": {
+    "deploy": "gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krzysiek2222/JS-Fetch-Giphy-Api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krzysiek2222/JS-Fetch-Giphy-Api/issues"
+  },
+  "homepage": "https://github.com/krzysiek2222/JS-Fetch-Giphy-Api#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

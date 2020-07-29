@@ -14,7 +14,7 @@
 
 html,
 body {
-  background: linear-gradient(90deg, rgba(92, 53, 53, 1) 15%, rgba(83, 1, 1, 1) 50%, rgba(99, 35, 35, 1) 85%);
+  background: linear-gradient(90deg, rgb(54, 12, 12) 15%, rgb(41, 1, 1) 50%, rgb(44, 10, 10) 85%);
   color: white;
   font-size: 16px;
   line-height: 1.7;
@@ -25,7 +25,7 @@ body {
 
 /* Navbar section */
 .navigation {
-  background: linear-gradient(90deg, rgba(62, 43, 43, 1) 15%, rgba(71, 1, 1, 1) 50%, rgba(80, 25, 25, 1) 85%);
+  background: linear-gradient(90deg, rgb(34, 39, 43) 15%, rgb(19, 28, 36) 50%, rgb(34, 39, 43) 85%);
   padding: 0.5rem 0;
   position: fixed;
   width: 100%;
@@ -83,10 +83,11 @@ a:hover {
 }
 
 .btn-search {
+  cursor: pointer;
   display: inline-block;
   width: 3rem;
   height: 3rem;
-  background: linear-gradient(30deg, rgba(131, 58, 180, 1) 13%, rgba(255, 118, 118, 1) 100%);
+  background: linear-gradient(30deg, rgb(156, 22, 22) 13%, rgba(255, 118, 118, 1) 100%);
   border: none;
   border-radius: 0 0.25rem 0.25rem 0;
   position: absolute;
@@ -107,12 +108,14 @@ a:hover {
 
 .previous,
 .next {
+  cursor: pointer;
   margin: 0px;
   padding: 0px;
   display: inline-block;
   height: 3rem;
   width: 35%;
-  background-color: rgb(217, 122, 255);
+  color: white;
+  background-color: rgb(156, 22, 22);
   border: none;
   border-radius: 0.25rem;
 }
@@ -154,6 +157,7 @@ a:hover {
   margin-top: 1rem;
   width: calc(100% - 15rem);
 }
+
 
 /* RWD - small devices */
 @media (max-width: 450px) {
