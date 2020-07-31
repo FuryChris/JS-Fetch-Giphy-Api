@@ -1,6 +1,6 @@
 # Giphy api
 
-![](/images//sample.jpg)
+![](/images//sample01.jpg)
 
 ## Description
 
